@@ -18,7 +18,7 @@ if not os.path.exists("output"):
 with open("output/uninstall_list.txt", 'w') as f_out:
     # Write each item to the output file
     for item in uninstall_list:
-        f_out.write('platform-tools/adb.exe shell pm uninstall --user 0 ' + item + '\n')
+        f_out.write(r'.\platform-tools\adb.exe shell pm uninstall --user 0 ' + item + '\n')
 remaining_list.sort()
 # Open the output file to write
 with open("output/remaining_list.txt", 'w') as f_out:

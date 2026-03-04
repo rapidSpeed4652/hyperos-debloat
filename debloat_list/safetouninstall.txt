@@ -82,3 +82,5 @@ com.amazon.appmanager
 com.mi.global.shop
 com.facebook.katana
 com.shopee.sg
+com.iqiyi.i18n
+com.tencent.igxiaomi

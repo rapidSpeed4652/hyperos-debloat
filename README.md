@@ -1,4 +1,4 @@
-# Xiaomi HyperOS Debloat List (JUL 2024)
+# Xiaomi HyperOS Debloat List
 If you're frustrated with the pre-installed applications on your new phone, you're not alone. Many of these apps can be redundant or intrusive, often causing issues such as push notifications and excessive battery drain.
 
 By using ADB (Android Debug Bridge), you can safely remove these unwanted applications without the need for rooting. This method is less risky than manual removal and ensures that system variables remain intact, allowing you to continue receiving OTA updates without issues.
@@ -8,10 +8,15 @@ By running this script, you can declutter your phone, improve performance, and f
 
 **DISCLAIMER: Use at your own risk. I am not responsible for anything that could happen to your phone. It is highly recommended to use it on a new phone or on a clean state after your phone is reset.**
 
-## Debloat List (HyperOS 1.0.7.0.UNAMIXM)
+# Debloat List
+## HyperOS 1.0.7.0.UNAMIXM (Last Tested on JUL 2024)
 This list is curated and tested for **HyperOS 1.0.7.0.UNAMIXM**
 - Xiaomi 14 Ultra Global Edition
 - Redmi Note 13 Pro+ 5G
+
+## MIUI 14.0.8.0.TKFMIXM (Last Tested on MAR 2026)
+This list is curated and tested for **MIUI 14.0.8.0.TKFMIXM**
+- MIUI Global 14.0.8
 
 # Setting Up
 ## Download Python
@@ -71,15 +76,10 @@ Two list will be generated, one will `uninstall_list.txt` the apps that will be 
 On Window:
 Rename uninstall_list.txt to uninstall_list.bat, run the uninstall_list.bat file
 ```
-./uninstall_list.bat
+mv ./output/uninstall_list.txt ./output/uninstall_list.bat 
+./output/uninstall_list.bat
 ```
 
-
-On Linux 
-Rename uninstall_list.txt to uninstall_list.sh, run the uninstall_list.sh file
-```
-./uninstall_list.sh
-```
 
 Otherwise you can run the uninstall command individually in the `uninstall_list.txt`.
 
