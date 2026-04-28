@@ -84,3 +84,9 @@ com.facebook.katana
 com.shopee.sg
 com.iqiyi.i18n
 com.tencent.igxiaomi
+com.xiaomi.aiservice
+com.xiaomi.aiasst.vision
+com.preff.kb.xm
+com.miui.bugreport
+cn.wps.xiaomi.abroad.lite
+com.xiaomi.aicr
